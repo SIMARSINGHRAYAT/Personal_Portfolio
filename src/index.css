@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, Manrope, "Space Grotesk", Sora, system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  transition: all 0.2s ease;
+}
